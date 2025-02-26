@@ -1,0 +1,376 @@
+
+
+                                               /* NAVBAR SECTION */
+
+.nav1{
+    background-color: black;
+    min-height: 100px;
+    color: beige;
+    
+}
+.button1 {
+    border: 2px solid #4facfe !important; /* Changes the border color */
+    border-radius: 5px; /* Optional: Rounds the corners */
+}
+
+/* Change the color of the bars inside the toggler */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%234facfe' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.linktnav{
+    color: white;
+    
+}
+.nav-item {
+    color: white;
+}
+a.head:link,a.head:visited,a.head:active,a.link:hover,a.head{
+    background-image: linear-gradient(to right,#4facfe,#b8f5fb) !important;
+    color: transparent !important;
+    -webkit-background-clip: text !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 50px !important;
+    
+}
+/* Change the color of navigation links */
+.navbar-nav .nav-link {
+    color: white !important;  /* Makes text white */
+    font-size: 22px;
+}
+
+/* Optional: Change color on hover */
+.navbar-nav .nav-link:hover {
+    color: #4facfe !important;  /* Changes to #4facfe when hovered */
+}
+@media (max-width:1040px) {
+    .navbar-brand.head{
+        font-size: 32px!important;
+        line-height: 1.2;
+    }
+    
+}
+@media (max-width: 480px) {
+    .navbar-brand.head {
+        font-size: 35px !important;
+        line-height: 1; /* Adjust spacing if needed */
+    }
+}
+
+
+
+                                           /* TITLE SECTION */
+
+
+
+.display-5{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 450;
+    font-family: "Poppins", serif;
+   
+}
+.learnpara{
+    font-size: 30px;
+    text-align: center;
+
+}
+.image img{
+    margin-top: 60px;
+    width: 100%;
+}
+section{
+    background: linear-gradient(180deg,#b8f5fb,#4facfe);
+    color: rgb(0, 0, 0);
+}
+.btn{
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background-color: #0078ff;
+    align-items: center;
+    text-align: center;
+    font-size: 20PX;
+    width: 200px;
+}
+.learnbox {
+    background-color: #0078ff; /* Same color */
+    width: 180px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    gap: 8px; /* Space between text and icon */
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Hover effect */
+.learnbox:hover {
+    background-color: #005ec2;
+    transform: scale(1.05);
+}
+
+/* Click effect */
+.learnbox:active {
+    background-color: #00479e;
+    transform: scale(0.98);
+}
+
+/* Ensure icon aligns properly */
+.learnbox img {
+    height: 18px;
+}
+
+.learnmore{
+    padding: 6px;
+}
+@media (max-width: 768px) {
+    /* Adjust heading size for smaller screens */
+    .display-5 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    /* Adjust paragraph font size */
+    .learnpara {
+        font-size: 22px;
+    }
+
+    /* Stack elements vertically instead of side-by-side */
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Reduce image margin and ensure proper scaling */
+    .image img {
+        margin-top: 30px;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Adjust button size for better usability */
+    .learnbox {
+        width: 140px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    /* Adjust button text padding */
+    .learnmore {
+        padding: 5px;
+    }
+}
+
+
+                                                  /* SERVICE SECTION */
+
+
+.client, .work, .book {
+    background: linear-gradient(180deg, white, #97cbf8);
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+    /* padding: 20px; */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.client:hover, .work:hover, .book:hover {
+    background: linear-gradient(180deg, #97cbf8, #0078ff);
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+.clienthead{
+    color: #0078ff;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Poppins", serif;;
+}
+
+.workhead{
+    color: #0078ff;
+    font-weight: bolder;
+    font-size: 30px;
+    height: 60px;
+    font-family: "Poppins", serif;;
+}
+
+.bookhead{
+    color: #0078ff;
+    font-weight: bolder;
+    font-size: 30px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;;
+    margin-top: 20px;
+    
+}
+.bookhead{
+    margin-top: 0px;
+}
+.bookpara{
+    margin-top: -20px;
+    padding: 10px;
+}
+.clientpara{
+    margin-top: 12px;
+    padding: 10px;
+}
+.workpara{
+    margin-top: -20px;
+    padding: 10px;
+}
+.client:hover .clienthead, 
+.work:hover .workhead, 
+.book:hover .bookhead {
+    color: white;
+}
+
+/* Paragraph color change */
+.client:hover .clientpara, 
+.work:hover .workpara, 
+.book:hover .bookpara {
+    color: white;
+}
+
+/* Icon/Image Effects */
+.client img, .work img, .book img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.client:hover img, .work:hover img, .book:hover img {
+    transform: scale(1.1);
+}
+
+
+                                                /* SIGNUP SECTION */
+
+
+/* Signup Box */
+.signup {
+    background: linear-gradient(180deg, #339efc, #0078ff);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    margin: 40px auto;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect for Signup Box */
+.signup:hover {
+    background: linear-gradient(180deg, #0056d6, #0044bb);
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading */
+.signup h4 {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Form */
+.signup form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Input Field */
+.signup input[type="email"] {
+    width: 220px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+/* Input Field Hover & Focus */
+.signup input[type="email"]:focus {
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.4);
+    border: 2px solid #fff;
+}
+
+/* Button */
+.signup button {
+    background: linear-gradient(180deg, #ffcc00, #ffaa00);
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 11px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.signup button:hover {
+    background: linear-gradient(180deg, #ffaa00, #ff9900);
+    transform: scale(1.08);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.no{
+    font-size: 25px;
+    margin-left: auto;
+    display: inline;
+    font-style: italic;
+   
+}
+.phone{
+    margin-left: auto;
+    display: inline;
+}
+.phone img{
+    padding-bottom: 5px;
+}
+.bi{
+    font-size: 20px;
+    color: black;
+    padding-right: 10px;
+}
+.copyright{
+    margin-top: 10px;
+}
+
+
+/* .glowing-div {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.glowing-div:hover {
+    box-shadow: 0 0 15px 5px rgba(102, 219, 52, 0.7); /* Glowing effect
+}    */
+ 
